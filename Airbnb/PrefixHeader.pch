@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  Airbnb
+//
+//  Created by hc on 2016/12/20.
+//  Copyright © 2016年 hc. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Consts.h"
+
+#import "AFNetworking.h"
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD.h"
+#import "IQKeyboardManager.h"
+
+#import "UIViewExt.h"
+#import "NSObject+UILabel.h"
+#import "NSObject+UIButton.h"
+#import "NSObject+UIBarButtonItem.h"
+
+#define IMG(img) [UIImage imageNamed:img]
+#define FONT(Font) [UIFont systemFontOfSize:Font]
+
+
+#define ABThemeColor  RGB(236, 103, 100)
+
+#define kBlackColor       [UIColor blackColor]    //黑色
+#define kDarkGrayColor    [UIColor darkGrayColor]  //深灰色
+#define kLightGrayColor   [UIColor lightGrayColor]
+#define kWhiteColor       [UIColor whiteColor]
+#define kRedColor         [UIColor redColor]
+#define kBlueColor        [UIColor blueColor]
+#define kGreenColor       [UIColor greenColor]
+#define kCyanColor        [UIColor cyanColor]
+#define kYellowColor      [UIColor yellowColor]
+#define kMagentaColor     [UIColor magentaColor]
+#define kOrangeColor      [UIColor orangeColor]
+#define kPurpleColor      [UIColor purpleColor]
+#define kBrownColor       [UIColor brownColor]
+#define kClearColor       [UIColor clearColor]
+
+#define WeakSelf __weak typeof(self) weakSelf = self; //weakSelf
+
+
+#endif /* PrefixHeader_pch */

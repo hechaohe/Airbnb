@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A984A2C1186720F009C4E4C /* Pods_Airbnb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346F17CCDF943E09925A0F10 /* Pods_Airbnb.framework */; };
+		4707DB2C1E11FBCF00AE6EF5 /* EditProfileLastCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4707DB2A1E11FBCF00AE6EF5 /* EditProfileLastCell.m */; };
+		4707DB2D1E11FBCF00AE6EF5 /* EditProfileLastCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4707DB2B1E11FBCF00AE6EF5 /* EditProfileLastCell.xib */; };
+		4710F6D11E14C06200E8B21B /* ABBAddMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710F6D01E14C06200E8B21B /* ABBAddMark.m */; };
+		4710F6D51E150B3D00E8B21B /* SavedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4710F6D31E150B3D00E8B21B /* SavedCell.m */; };
+		4710F6D61E150B3D00E8B21B /* SavedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4710F6D41E150B3D00E8B21B /* SavedCell.xib */; };
+		471EB0B11E11082800AEB05A /* EditProfileEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 471EB0AF1E11082800AEB05A /* EditProfileEditCell.m */; };
+		471EB0B21E11082800AEB05A /* EditProfileEditCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471EB0B01E11082800AEB05A /* EditProfileEditCell.xib */; };
+		471FE51D1E0E203200451EDD /* EditProfileTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 471FE51B1E0E203200451EDD /* EditProfileTextCell.m */; };
+		471FE51E1E0E203200451EDD /* EditProfileTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471FE51C1E0E203200451EDD /* EditProfileTextCell.xib */; };
+		4779D0031E16512500A1985A /* ExperienceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4779D0011E16512500A1985A /* ExperienceCell.m */; };
+		4779D0041E16512500A1985A /* ExperienceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4779D0021E16512500A1985A /* ExperienceCell.xib */; };
+		4779D0081E1656DA00A1985A /* PicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4779D0061E1656DA00A1985A /* PicCell.m */; };
+		4779D0091E1656DA00A1985A /* PicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4779D0071E1656DA00A1985A /* PicCell.xib */; };
+		4779D00D1E1659A900A1985A /* evalueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4779D00B1E1659A900A1985A /* evalueCell.m */; };
+		4779D00E1E1659A900A1985A /* evalueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4779D00C1E1659A900A1985A /* evalueCell.xib */; };
+		477EAC331E0A1469006D8C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477EAC321E0A1469006D8C39 /* Assets.xcassets */; };
+		477EAC3A1E0A54D8006D8C39 /* head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 477EAC391E0A54D8006D8C39 /* head@2x.png */; };
+		477EAC3C1E0A5555006D8C39 /* backImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 477EAC3B1E0A5555006D8C39 /* backImage.png */; };
+		477EAC3F1E0A5B2E006D8C39 /* SeeProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477EAC3E1E0A5B2E006D8C39 /* SeeProfileViewController.m */; };
+		477EAC421E0A7B20006D8C39 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477EAC411E0A7B20006D8C39 /* EditProfileViewController.m */; };
 		4780759C1E090B5D004500F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4780759B1E090B5D004500F2 /* main.m */; };
 		4780759F1E090B5D004500F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4780759E1E090B5D004500F2 /* AppDelegate.m */; };
-		478075A21E090B5E004500F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478075A11E090B5E004500F2 /* ViewController.m */; };
-		478075A51E090B5E004500F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478075A31E090B5E004500F2 /* Main.storyboard */; };
-		478075A71E090B5E004500F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 478075A61E090B5E004500F2 /* Assets.xcassets */; };
 		478075AA1E090B5E004500F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 478075A81E090B5E004500F2 /* LaunchScreen.storyboard */; };
 		478075B51E090B5E004500F2 /* AirbnbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478075B41E090B5E004500F2 /* AirbnbTests.m */; };
 		478075C01E090B5E004500F2 /* AirbnbUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 478075BF1E090B5E004500F2 /* AirbnbUITests.m */; };
+		478D14B01E0916C000C4AF92 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14AF1E0916C000C4AF92 /* BaseViewController.m */; };
+		478D14B31E0916E800C4AF92 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14B21E0916E800C4AF92 /* BaseNavigationController.m */; };
+		478D14B61E09170400C4AF92 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14B51E09170400C4AF92 /* BaseTabBarController.m */; };
+		478D14B91E09173400C4AF92 /* ExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14B81E09173400C4AF92 /* ExploreViewController.m */; };
+		478D14BC1E091CDC00C4AF92 /* InboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14BB1E091CDC00C4AF92 /* InboxViewController.m */; };
+		478D14BF1E091CEC00C4AF92 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14BE1E091CEC00C4AF92 /* ProfileViewController.m */; };
+		478D14C21E091CFC00C4AF92 /* SavedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14C11E091CFC00C4AF92 /* SavedViewController.m */; };
+		478D14C51E091D1300C4AF92 /* TripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14C41E091D1300C4AF92 /* TripsViewController.m */; };
+		478D14CE1E092A7B00C4AF92 /* NSObject+UIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14C71E092A7B00C4AF92 /* NSObject+UIBarButtonItem.m */; };
+		478D14CF1E092A7B00C4AF92 /* NSObject+UIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14C91E092A7B00C4AF92 /* NSObject+UIButton.m */; };
+		478D14D01E092A7B00C4AF92 /* NSObject+UILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14CB1E092A7B00C4AF92 /* NSObject+UILabel.m */; };
+		478D14D11E092A7B00C4AF92 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14CD1E092A7B00C4AF92 /* UILabel+Extension.m */; };
+		478D14D41E092B9500C4AF92 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14D31E092B9500C4AF92 /* BaseTableViewController.m */; };
+		478D14D71E092BE400C4AF92 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14D61E092BE400C4AF92 /* UIViewExt.m */; };
+		478D14DB1E092D8B00C4AF92 /* ProfileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14D91E092D8B00C4AF92 /* ProfileCell.m */; };
+		478D14DC1E092D8B00C4AF92 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 478D14DA1E092D8B00C4AF92 /* ProfileCell.xib */; };
+		478D14DF1E092FC300C4AF92 /* ProfileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D14DE1E092FC300C4AF92 /* ProfileModel.m */; };
+		47E6B14F1E1BA42400EFA458 /* DetailSavedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E6B14E1E1BA42400EFA458 /* DetailSavedController.m */; };
+		5E382B4FADA16F6E819D42AC /* Pods_AirbnbUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4D27C3361432F57517804C8 /* Pods_AirbnbUITests.framework */; };
+		B226DC05D26BBBA5B5919EEA /* Pods_AirbnbTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7C60FF5E31F04A03E732A3 /* Pods_AirbnbTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +73,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CE38A7A14C5A79DFEA54F8 /* Pods-AirbnbUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirbnbUITests/Pods-AirbnbUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		346F17CCDF943E09925A0F10 /* Pods_Airbnb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Airbnb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4707DB291E11FBCF00AE6EF5 /* EditProfileLastCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileLastCell.h; sourceTree = "<group>"; };
+		4707DB2A1E11FBCF00AE6EF5 /* EditProfileLastCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileLastCell.m; sourceTree = "<group>"; };
+		4707DB2B1E11FBCF00AE6EF5 /* EditProfileLastCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProfileLastCell.xib; sourceTree = "<group>"; };
+		4710F6CF1E14C06200E8B21B /* ABBAddMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABBAddMark.h; sourceTree = "<group>"; };
+		4710F6D01E14C06200E8B21B /* ABBAddMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABBAddMark.m; sourceTree = "<group>"; };
+		4710F6D21E150B3D00E8B21B /* SavedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedCell.h; sourceTree = "<group>"; };
+		4710F6D31E150B3D00E8B21B /* SavedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedCell.m; sourceTree = "<group>"; };
+		4710F6D41E150B3D00E8B21B /* SavedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SavedCell.xib; sourceTree = "<group>"; };
+		471EB0AE1E11082800AEB05A /* EditProfileEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileEditCell.h; sourceTree = "<group>"; };
+		471EB0AF1E11082800AEB05A /* EditProfileEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileEditCell.m; sourceTree = "<group>"; };
+		471EB0B01E11082800AEB05A /* EditProfileEditCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProfileEditCell.xib; sourceTree = "<group>"; };
+		471FE51A1E0E203200451EDD /* EditProfileTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileTextCell.h; sourceTree = "<group>"; };
+		471FE51B1E0E203200451EDD /* EditProfileTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileTextCell.m; sourceTree = "<group>"; };
+		471FE51C1E0E203200451EDD /* EditProfileTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditProfileTextCell.xib; sourceTree = "<group>"; };
+		4779D0001E16512500A1985A /* ExperienceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExperienceCell.h; sourceTree = "<group>"; };
+		4779D0011E16512500A1985A /* ExperienceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperienceCell.m; sourceTree = "<group>"; };
+		4779D0021E16512500A1985A /* ExperienceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExperienceCell.xib; sourceTree = "<group>"; };
+		4779D0051E1656DA00A1985A /* PicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicCell.h; sourceTree = "<group>"; };
+		4779D0061E1656DA00A1985A /* PicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicCell.m; sourceTree = "<group>"; };
+		4779D0071E1656DA00A1985A /* PicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicCell.xib; sourceTree = "<group>"; };
+		4779D00A1E1659A900A1985A /* evalueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evalueCell.h; sourceTree = "<group>"; };
+		4779D00B1E1659A900A1985A /* evalueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = evalueCell.m; sourceTree = "<group>"; };
+		4779D00C1E1659A900A1985A /* evalueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = evalueCell.xib; sourceTree = "<group>"; };
+		477EAC321E0A1469006D8C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		477EAC391E0A54D8006D8C39 /* head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head@2x.png"; sourceTree = "<group>"; };
+		477EAC3B1E0A5555006D8C39 /* backImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backImage.png; sourceTree = "<group>"; };
+		477EAC3D1E0A5B2E006D8C39 /* SeeProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeProfileViewController.h; sourceTree = "<group>"; };
+		477EAC3E1E0A5B2E006D8C39 /* SeeProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeProfileViewController.m; sourceTree = "<group>"; };
+		477EAC401E0A7B20006D8C39 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		477EAC411E0A7B20006D8C39 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
 		478075971E090B5D004500F2 /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4780759B1E090B5D004500F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4780759D1E090B5D004500F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4780759E1E090B5D004500F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		478075A01E090B5E004500F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		478075A11E090B5E004500F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		478075A41E090B5E004500F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		478075A61E090B5E004500F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		478075A91E090B5E004500F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		478075AB1E090B5E004500F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		478075B01E090B5E004500F2 /* AirbnbTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +117,50 @@
 		478075BB1E090B5E004500F2 /* AirbnbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirbnbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		478075BF1E090B5E004500F2 /* AirbnbUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirbnbUITests.m; sourceTree = "<group>"; };
 		478075C11E090B5E004500F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		478D14921E0912CA00C4AF92 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		478D14931E09142600C4AF92 /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		478D14AE1E0916C000C4AF92 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		478D14AF1E0916C000C4AF92 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		478D14B11E0916E800C4AF92 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		478D14B21E0916E800C4AF92 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		478D14B41E09170400C4AF92 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		478D14B51E09170400C4AF92 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		478D14B71E09173400C4AF92 /* ExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExploreViewController.h; sourceTree = "<group>"; };
+		478D14B81E09173400C4AF92 /* ExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExploreViewController.m; sourceTree = "<group>"; };
+		478D14BA1E091CDC00C4AF92 /* InboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InboxViewController.h; sourceTree = "<group>"; };
+		478D14BB1E091CDC00C4AF92 /* InboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InboxViewController.m; sourceTree = "<group>"; };
+		478D14BD1E091CEC00C4AF92 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		478D14BE1E091CEC00C4AF92 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		478D14C01E091CFC00C4AF92 /* SavedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedViewController.h; sourceTree = "<group>"; };
+		478D14C11E091CFC00C4AF92 /* SavedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedViewController.m; sourceTree = "<group>"; };
+		478D14C31E091D1300C4AF92 /* TripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripsViewController.h; sourceTree = "<group>"; };
+		478D14C41E091D1300C4AF92 /* TripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripsViewController.m; sourceTree = "<group>"; };
+		478D14C61E092A7B00C4AF92 /* NSObject+UIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIBarButtonItem.h"; sourceTree = "<group>"; };
+		478D14C71E092A7B00C4AF92 /* NSObject+UIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIBarButtonItem.m"; sourceTree = "<group>"; };
+		478D14C81E092A7B00C4AF92 /* NSObject+UIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UIButton.h"; sourceTree = "<group>"; };
+		478D14C91E092A7B00C4AF92 /* NSObject+UIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UIButton.m"; sourceTree = "<group>"; };
+		478D14CA1E092A7B00C4AF92 /* NSObject+UILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UILabel.h"; sourceTree = "<group>"; };
+		478D14CB1E092A7B00C4AF92 /* NSObject+UILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UILabel.m"; sourceTree = "<group>"; };
+		478D14CC1E092A7B00C4AF92 /* UILabel+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		478D14CD1E092A7B00C4AF92 /* UILabel+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		478D14D21E092B9500C4AF92 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		478D14D31E092B9500C4AF92 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		478D14D51E092BE400C4AF92 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		478D14D61E092BE400C4AF92 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		478D14D81E092D8B00C4AF92 /* ProfileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileCell.h; sourceTree = "<group>"; };
+		478D14D91E092D8B00C4AF92 /* ProfileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileCell.m; sourceTree = "<group>"; };
+		478D14DA1E092D8B00C4AF92 /* ProfileCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		478D14DD1E092FC300C4AF92 /* ProfileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileModel.h; sourceTree = "<group>"; };
+		478D14DE1E092FC300C4AF92 /* ProfileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileModel.m; sourceTree = "<group>"; };
+		47E6B14D1E1BA42400EFA458 /* DetailSavedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailSavedController.h; sourceTree = "<group>"; };
+		47E6B14E1E1BA42400EFA458 /* DetailSavedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailSavedController.m; sourceTree = "<group>"; };
+		690702320F5C73FFF779A80F /* Pods-Airbnb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb.debug.xcconfig"; sourceTree = "<group>"; };
+		AA09B2F9BC6D2AAB1FDD5930 /* Pods-AirbnbUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirbnbUITests/Pods-AirbnbUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC957691495DFEE08F0C0DA /* Pods-AirbnbTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirbnbTests/Pods-AirbnbTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B370DA4BF3C7225632C9252E /* Pods-Airbnb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Airbnb.release.xcconfig"; path = "Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb.release.xcconfig"; sourceTree = "<group>"; };
+		BA7C60FF5E31F04A03E732A3 /* Pods_AirbnbTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirbnbTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EA05658E63A0459A76D861 /* Pods-AirbnbTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirbnbTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirbnbTests/Pods-AirbnbTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4D27C3361432F57517804C8 /* Pods_AirbnbUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirbnbUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A984A2C1186720F009C4E4C /* Pods_Airbnb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B226DC05D26BBBA5B5919EEA /* Pods_AirbnbTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +184,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E382B4FADA16F6E819D42AC /* Pods_AirbnbUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2ECE732E82A154EF159656C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				346F17CCDF943E09925A0F10 /* Pods_Airbnb.framework */,
+				BA7C60FF5E31F04A03E732A3 /* Pods_AirbnbTests.framework */,
+				F4D27C3361432F57517804C8 /* Pods_AirbnbUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4780758E1E090B5D004500F2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +208,8 @@
 				478075B31E090B5E004500F2 /* AirbnbTests */,
 				478075BE1E090B5E004500F2 /* AirbnbUITests */,
 				478075981E090B5D004500F2 /* Products */,
+				4B4B48EADA5C27A11228F5C6 /* Pods */,
+				2ECE732E82A154EF159656C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +226,7 @@
 		478075991E090B5D004500F2 /* Airbnb */ = {
 			isa = PBXGroup;
 			children = (
-				4780759D1E090B5D004500F2 /* AppDelegate.h */,
-				4780759E1E090B5D004500F2 /* AppDelegate.m */,
-				478075A01E090B5E004500F2 /* ViewController.h */,
-				478075A11E090B5E004500F2 /* ViewController.m */,
-				478075A31E090B5E004500F2 /* Main.storyboard */,
-				478075A61E090B5E004500F2 /* Assets.xcassets */,
-				478075A81E090B5E004500F2 /* LaunchScreen.storyboard */,
-				478075AB1E090B5E004500F2 /* Info.plist */,
+				478D14941E0915B000C4AF92 /* Classes */,
 				4780759A1E090B5D004500F2 /* Supporting Files */,
 			);
 			path = Airbnb;
@@ -117,7 +235,14 @@
 		4780759A1E090B5D004500F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				478075A81E090B5E004500F2 /* LaunchScreen.storyboard */,
+				478075AB1E090B5E004500F2 /* Info.plist */,
+				4780759D1E090B5D004500F2 /* AppDelegate.h */,
+				4780759E1E090B5D004500F2 /* AppDelegate.m */,
+				478D14921E0912CA00C4AF92 /* PrefixHeader.pch */,
+				478D14931E09142600C4AF92 /* Consts.h */,
 				4780759B1E090B5D004500F2 /* main.m */,
+				477EAC321E0A1469006D8C39 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +265,290 @@
 			path = AirbnbUITests;
 			sourceTree = "<group>";
 		};
+		478D14941E0915B000C4AF92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				478D14AD1E09166E00C4AF92 /* Base */,
+				478D149D1E0915B000C4AF92 /* Other */,
+				478D14951E0915B000C4AF92 /* Explore */,
+				478D14991E0915B000C4AF92 /* Inbox */,
+				478D14A11E0915B000C4AF92 /* Profile */,
+				478D14A51E0915B000C4AF92 /* Saved */,
+				478D14A91E0915B000C4AF92 /* Trips */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		478D14951E0915B000C4AF92 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				478D14961E0915B000C4AF92 /* Controller */,
+				478D14971E0915B000C4AF92 /* Model */,
+				478D14981E0915B000C4AF92 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		478D14961E0915B000C4AF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D14B71E09173400C4AF92 /* ExploreViewController.h */,
+				478D14B81E09173400C4AF92 /* ExploreViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		478D14971E0915B000C4AF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D14981E0915B000C4AF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4779D0001E16512500A1985A /* ExperienceCell.h */,
+				4779D0011E16512500A1985A /* ExperienceCell.m */,
+				4779D0021E16512500A1985A /* ExperienceCell.xib */,
+				4779D0051E1656DA00A1985A /* PicCell.h */,
+				4779D0061E1656DA00A1985A /* PicCell.m */,
+				4779D0071E1656DA00A1985A /* PicCell.xib */,
+				4779D00A1E1659A900A1985A /* evalueCell.h */,
+				4779D00B1E1659A900A1985A /* evalueCell.m */,
+				4779D00C1E1659A900A1985A /* evalueCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		478D14991E0915B000C4AF92 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				478D149A1E0915B000C4AF92 /* Controller */,
+				478D149B1E0915B000C4AF92 /* Model */,
+				478D149C1E0915B000C4AF92 /* View */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		478D149A1E0915B000C4AF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D14BA1E091CDC00C4AF92 /* InboxViewController.h */,
+				478D14BB1E091CDC00C4AF92 /* InboxViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		478D149B1E0915B000C4AF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D149C1E0915B000C4AF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		478D149D1E0915B000C4AF92 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				478D149E1E0915B000C4AF92 /* Category */,
+				478D149F1E0915B000C4AF92 /* Const */,
+				478D14A01E0915B000C4AF92 /* Tools */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		478D149E1E0915B000C4AF92 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				478D14D51E092BE400C4AF92 /* UIViewExt.h */,
+				478D14D61E092BE400C4AF92 /* UIViewExt.m */,
+				478D14C61E092A7B00C4AF92 /* NSObject+UIBarButtonItem.h */,
+				478D14C71E092A7B00C4AF92 /* NSObject+UIBarButtonItem.m */,
+				478D14C81E092A7B00C4AF92 /* NSObject+UIButton.h */,
+				478D14C91E092A7B00C4AF92 /* NSObject+UIButton.m */,
+				478D14CA1E092A7B00C4AF92 /* NSObject+UILabel.h */,
+				478D14CB1E092A7B00C4AF92 /* NSObject+UILabel.m */,
+				478D14CC1E092A7B00C4AF92 /* UILabel+Extension.h */,
+				478D14CD1E092A7B00C4AF92 /* UILabel+Extension.m */,
+				4710F6CF1E14C06200E8B21B /* ABBAddMark.h */,
+				4710F6D01E14C06200E8B21B /* ABBAddMark.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		478D149F1E0915B000C4AF92 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		478D14A01E0915B000C4AF92 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		478D14A11E0915B000C4AF92 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				478D14A21E0915B000C4AF92 /* Controller */,
+				478D14A31E0915B000C4AF92 /* Model */,
+				478D14A41E0915B000C4AF92 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		478D14A21E0915B000C4AF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D14BD1E091CEC00C4AF92 /* ProfileViewController.h */,
+				478D14BE1E091CEC00C4AF92 /* ProfileViewController.m */,
+				477EAC3D1E0A5B2E006D8C39 /* SeeProfileViewController.h */,
+				477EAC3E1E0A5B2E006D8C39 /* SeeProfileViewController.m */,
+				477EAC401E0A7B20006D8C39 /* EditProfileViewController.h */,
+				477EAC411E0A7B20006D8C39 /* EditProfileViewController.m */,
+				477EAC3B1E0A5555006D8C39 /* backImage.png */,
+				477EAC391E0A54D8006D8C39 /* head@2x.png */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		478D14A31E0915B000C4AF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				478D14DD1E092FC300C4AF92 /* ProfileModel.h */,
+				478D14DE1E092FC300C4AF92 /* ProfileModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D14A41E0915B000C4AF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				478D14D81E092D8B00C4AF92 /* ProfileCell.h */,
+				478D14D91E092D8B00C4AF92 /* ProfileCell.m */,
+				478D14DA1E092D8B00C4AF92 /* ProfileCell.xib */,
+				471FE51A1E0E203200451EDD /* EditProfileTextCell.h */,
+				471FE51B1E0E203200451EDD /* EditProfileTextCell.m */,
+				471FE51C1E0E203200451EDD /* EditProfileTextCell.xib */,
+				471EB0AE1E11082800AEB05A /* EditProfileEditCell.h */,
+				471EB0AF1E11082800AEB05A /* EditProfileEditCell.m */,
+				471EB0B01E11082800AEB05A /* EditProfileEditCell.xib */,
+				4707DB291E11FBCF00AE6EF5 /* EditProfileLastCell.h */,
+				4707DB2A1E11FBCF00AE6EF5 /* EditProfileLastCell.m */,
+				4707DB2B1E11FBCF00AE6EF5 /* EditProfileLastCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		478D14A51E0915B000C4AF92 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				478D14A61E0915B000C4AF92 /* Controller */,
+				478D14A71E0915B000C4AF92 /* Model */,
+				478D14A81E0915B000C4AF92 /* View */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		478D14A61E0915B000C4AF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D14C01E091CFC00C4AF92 /* SavedViewController.h */,
+				478D14C11E091CFC00C4AF92 /* SavedViewController.m */,
+				47E6B14D1E1BA42400EFA458 /* DetailSavedController.h */,
+				47E6B14E1E1BA42400EFA458 /* DetailSavedController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		478D14A71E0915B000C4AF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D14A81E0915B000C4AF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4710F6D21E150B3D00E8B21B /* SavedCell.h */,
+				4710F6D31E150B3D00E8B21B /* SavedCell.m */,
+				4710F6D41E150B3D00E8B21B /* SavedCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		478D14A91E0915B000C4AF92 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				478D14AA1E0915B000C4AF92 /* Controller */,
+				478D14AB1E0915B000C4AF92 /* Model */,
+				478D14AC1E0915B000C4AF92 /* View */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		478D14AA1E0915B000C4AF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				478D14C31E091D1300C4AF92 /* TripsViewController.h */,
+				478D14C41E091D1300C4AF92 /* TripsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		478D14AB1E0915B000C4AF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		478D14AC1E0915B000C4AF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		478D14AD1E09166E00C4AF92 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				478D14AE1E0916C000C4AF92 /* BaseViewController.h */,
+				478D14AF1E0916C000C4AF92 /* BaseViewController.m */,
+				478D14D21E092B9500C4AF92 /* BaseTableViewController.h */,
+				478D14D31E092B9500C4AF92 /* BaseTableViewController.m */,
+				478D14B11E0916E800C4AF92 /* BaseNavigationController.h */,
+				478D14B21E0916E800C4AF92 /* BaseNavigationController.m */,
+				478D14B41E09170400C4AF92 /* BaseTabBarController.h */,
+				478D14B51E09170400C4AF92 /* BaseTabBarController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4B4B48EADA5C27A11228F5C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				690702320F5C73FFF779A80F /* Pods-Airbnb.debug.xcconfig */,
+				B370DA4BF3C7225632C9252E /* Pods-Airbnb.release.xcconfig */,
+				ACC957691495DFEE08F0C0DA /* Pods-AirbnbTests.debug.xcconfig */,
+				E0EA05658E63A0459A76D861 /* Pods-AirbnbTests.release.xcconfig */,
+				03CE38A7A14C5A79DFEA54F8 /* Pods-AirbnbUITests.debug.xcconfig */,
+				AA09B2F9BC6D2AAB1FDD5930 /* Pods-AirbnbUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +556,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478075C41E090B5E004500F2 /* Build configuration list for PBXNativeTarget "Airbnb" */;
 			buildPhases = (
+				72F22730CCD993EA87DC0398 /* [CP] Check Pods Manifest.lock */,
 				478075931E090B5D004500F2 /* Sources */,
 				478075941E090B5D004500F2 /* Frameworks */,
 				478075951E090B5D004500F2 /* Resources */,
+				23F99F7761D09A4E65EDD8B9 /* [CP] Embed Pods Frameworks */,
+				A514A5419A1B8B65C70BDD06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +576,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478075C71E090B5E004500F2 /* Build configuration list for PBXNativeTarget "AirbnbTests" */;
 			buildPhases = (
+				D36EECEF453F2FF9EA53D4C3 /* [CP] Check Pods Manifest.lock */,
 				478075AC1E090B5E004500F2 /* Sources */,
 				478075AD1E090B5E004500F2 /* Frameworks */,
 				478075AE1E090B5E004500F2 /* Resources */,
+				BBC4473F3A10C2663E784F50 /* [CP] Embed Pods Frameworks */,
+				A0477063A4C6F480C5CC08FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +597,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 478075CA1E090B5E004500F2 /* Build configuration list for PBXNativeTarget "AirbnbUITests" */;
 			buildPhases = (
+				30327FA814A4E6B3208A8F42 /* [CP] Check Pods Manifest.lock */,
 				478075B71E090B5E004500F2 /* Sources */,
 				478075B81E090B5E004500F2 /* Frameworks */,
 				478075B91E090B5E004500F2 /* Resources */,
+				D399D549489DA879D13A07AA /* [CP] Embed Pods Frameworks */,
+				7C7170A0FFEE3A0048C98455 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +625,7 @@
 				TargetAttributes = {
 					478075961E090B5D004500F2 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 94CU8GHULH;
 						ProvisioningStyle = Automatic;
 					};
 					478075AF1E090B5E004500F2 = {
@@ -246,9 +665,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471FE51E1E0E203200451EDD /* EditProfileTextCell.xib in Resources */,
+				478D14DC1E092D8B00C4AF92 /* ProfileCell.xib in Resources */,
+				4710F6D61E150B3D00E8B21B /* SavedCell.xib in Resources */,
+				4779D0041E16512500A1985A /* ExperienceCell.xib in Resources */,
+				477EAC331E0A1469006D8C39 /* Assets.xcassets in Resources */,
+				4779D00E1E1659A900A1985A /* evalueCell.xib in Resources */,
+				4707DB2D1E11FBCF00AE6EF5 /* EditProfileLastCell.xib in Resources */,
+				471EB0B21E11082800AEB05A /* EditProfileEditCell.xib in Resources */,
+				477EAC3C1E0A5555006D8C39 /* backImage.png in Resources */,
+				477EAC3A1E0A54D8006D8C39 /* head@2x.png in Resources */,
+				4779D0091E1656DA00A1985A /* PicCell.xib in Resources */,
 				478075AA1E090B5E004500F2 /* LaunchScreen.storyboard in Resources */,
-				478075A71E090B5E004500F2 /* Assets.xcassets in Resources */,
-				478075A51E090B5E004500F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +696,178 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23F99F7761D09A4E65EDD8B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30327FA814A4E6B3208A8F42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72F22730CCD993EA87DC0398 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C7170A0FFEE3A0048C98455 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirbnbUITests/Pods-AirbnbUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0477063A4C6F480C5CC08FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirbnbTests/Pods-AirbnbTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A514A5419A1B8B65C70BDD06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Airbnb/Pods-Airbnb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBC4473F3A10C2663E784F50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirbnbTests/Pods-AirbnbTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D36EECEF453F2FF9EA53D4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D399D549489DA879D13A07AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirbnbUITests/Pods-AirbnbUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		478075931E090B5D004500F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478075A21E090B5E004500F2 /* ViewController.m in Sources */,
+				477EAC3F1E0A5B2E006D8C39 /* SeeProfileViewController.m in Sources */,
+				478D14D71E092BE400C4AF92 /* UIViewExt.m in Sources */,
+				478D14B61E09170400C4AF92 /* BaseTabBarController.m in Sources */,
+				478D14D01E092A7B00C4AF92 /* NSObject+UILabel.m in Sources */,
+				478D14D11E092A7B00C4AF92 /* UILabel+Extension.m in Sources */,
+				478D14B31E0916E800C4AF92 /* BaseNavigationController.m in Sources */,
+				471FE51D1E0E203200451EDD /* EditProfileTextCell.m in Sources */,
+				478D14D41E092B9500C4AF92 /* BaseTableViewController.m in Sources */,
+				4710F6D11E14C06200E8B21B /* ABBAddMark.m in Sources */,
+				478D14BF1E091CEC00C4AF92 /* ProfileViewController.m in Sources */,
+				478D14DF1E092FC300C4AF92 /* ProfileModel.m in Sources */,
 				4780759F1E090B5D004500F2 /* AppDelegate.m in Sources */,
+				4779D0081E1656DA00A1985A /* PicCell.m in Sources */,
+				478D14B01E0916C000C4AF92 /* BaseViewController.m in Sources */,
+				478D14C51E091D1300C4AF92 /* TripsViewController.m in Sources */,
+				477EAC421E0A7B20006D8C39 /* EditProfileViewController.m in Sources */,
+				4779D0031E16512500A1985A /* ExperienceCell.m in Sources */,
+				4779D00D1E1659A900A1985A /* evalueCell.m in Sources */,
+				478D14DB1E092D8B00C4AF92 /* ProfileCell.m in Sources */,
+				4710F6D51E150B3D00E8B21B /* SavedCell.m in Sources */,
+				478D14B91E09173400C4AF92 /* ExploreViewController.m in Sources */,
+				478D14CF1E092A7B00C4AF92 /* NSObject+UIButton.m in Sources */,
+				47E6B14F1E1BA42400EFA458 /* DetailSavedController.m in Sources */,
+				478D14C21E091CFC00C4AF92 /* SavedViewController.m in Sources */,
 				4780759C1E090B5D004500F2 /* main.m in Sources */,
+				478D14BC1E091CDC00C4AF92 /* InboxViewController.m in Sources */,
+				478D14CE1E092A7B00C4AF92 /* NSObject+UIBarButtonItem.m in Sources */,
+				471EB0B11E11082800AEB05A /* EditProfileEditCell.m in Sources */,
+				4707DB2C1E11FBCF00AE6EF5 /* EditProfileLastCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +903,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		478075A31E090B5E004500F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				478075A41E090B5E004500F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		478075A81E090B5E004500F2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -348,6 +932,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -370,7 +955,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -395,6 +980,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -411,7 +997,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -420,9 +1006,13 @@
 		};
 		478075C51E090B5E004500F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690702320F5C73FFF779A80F /* Pods-Airbnb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94CU8GHULH;
+				GCC_PREFIX_HEADER = Airbnb/PrefixHeader.pch;
 				INFOPLIST_FILE = Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbid.Airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -431,9 +1021,13 @@
 		};
 		478075C61E090B5E004500F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B370DA4BF3C7225632C9252E /* Pods-Airbnb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94CU8GHULH;
+				GCC_PREFIX_HEADER = Airbnb/PrefixHeader.pch;
 				INFOPLIST_FILE = Airbnb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bitbid.Airbnb;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +1036,7 @@
 		};
 		478075C81E090B5E004500F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC957691495DFEE08F0C0DA /* Pods-AirbnbTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AirbnbTests/Info.plist;
@@ -454,6 +1049,7 @@
 		};
 		478075C91E090B5E004500F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EA05658E63A0459A76D861 /* Pods-AirbnbTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = AirbnbTests/Info.plist;
@@ -466,6 +1062,7 @@
 		};
 		478075CB1E090B5E004500F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CE38A7A14C5A79DFEA54F8 /* Pods-AirbnbUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AirbnbUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -477,6 +1074,7 @@
 		};
 		478075CC1E090B5E004500F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA09B2F9BC6D2AAB1FDD5930 /* Pods-AirbnbUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = AirbnbUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -505,6 +1103,7 @@
 				478075C61E090B5E004500F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		478075C71E090B5E004500F2 /* Build configuration list for PBXNativeTarget "AirbnbTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +1112,7 @@
 				478075C91E090B5E004500F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		478075CA1E090B5E004500F2 /* Build configuration list for PBXNativeTarget "AirbnbUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +1121,7 @@
 				478075CC1E090B5E004500F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
