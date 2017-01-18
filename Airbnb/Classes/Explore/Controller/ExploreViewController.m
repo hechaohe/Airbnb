@@ -8,7 +8,13 @@
 
 #import "ExploreViewController.h"
 #import "ABBAddMark.h"
-@interface ExploreViewController () <UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource>
+#import "ExploreTableViewCell.h"
+#import "ExploreCell.h"
+
+//next section
+#import "MainCell.h"
+#import "ACollectionViewCell.h"
+@interface ExploreViewController () <UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource,ExploreTableViewCellDelegate>
 @property (nonatomic,strong) UITableView *tableView;
 //记录当前偏移量
 @property (nonatomic, assign) CGFloat lastTableViewOffsetY;
@@ -26,6 +32,11 @@
 @property (nonatomic,strong) ABBAddMark *mark3;
 @property (nonatomic,strong) UIButton *hideBtn;
 @property (nonatomic,strong) ABBAddMark *mark4;
+
+/** data */
+@property (nonatomic,strong) NSArray *items;
+
+
 @end
 
 @implementation ExploreViewController
@@ -38,6 +49,11 @@
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
 
+
+    [self setup];
+    
+    
+    
     self.navigationController.navigationBar.hidden = YES;
     
     _threeBtnHeight = 210;
@@ -47,6 +63,14 @@
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:_tableView];
+    
+    
+    ////
+    
+    [self.tableView registerNib:[UINib nibWithNibName:@"ExploreTableViewCell" bundle:nil] forCellReuseIdentifier:@"ExploreTableViewCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"ExploreCell" bundle:nil] forCellReuseIdentifier:@"ExploreCell"];
+    [self.tableView registerNib:[UINib nibWithNibName:@"MainCell" bundle:nil] forCellReuseIdentifier:@"MainCell"];
+    
     
     _topContentInset = 136;
     _cycleScrollView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kWindowW, 50)];
@@ -132,20 +156,70 @@
 }
 #pragma mark uitableviewDatasource
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+    return 3;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 100;
+    return 5;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
-    cell.textLabel.text = [NSString stringWithFormat:@"number%ld",indexPath.row];
-    return cell;
+    
+    if (indexPath.section == 0) {
+        ExploreTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExploreTableViewCell" forIndexPath:indexPath];
+        cell.priseLabel.text = @"abcdefghijklmn";
+        cell.commentLabel.text = @"opq";
+        return cell;
+    } else if(indexPath.section == 1){
+        ExploreCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ExploreCell" forIndexPath:indexPath];
+        if (indexPath.row == 0) {
+            cell.authorLabel.text = @"橘子";
+            cell.likeNumberLabel.text = @"20";
+            cell.commentNumberLabel.text = @"100";
+        }else if (indexPath.row == 1){
+            cell.authorLabel.text = @"苹果姐姐";
+            cell.likeNumberLabel.text = @"10";
+            cell.commentNumberLabel.text = @"99";
+        }else {
+            cell.authorLabel.text = @"房东的猫";
+            cell.likeNumberLabel.text = @"2500";
+            cell.commentNumberLabel.text = @"10000";
+        }
+        
+        return cell;
+    } else {
+        MainCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MainCell" forIndexPath:indexPath];
+        cell.items = self.items;
+        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+        cell.delegate = self;
+        return cell;
+    }
+
+    
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.section == 2) {
+        [UILabel showStats:[NSString stringWithFormat:@"点击了第%ld列",indexPath.row] atView:self.view];
+    }
 
+}
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 200;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    if (indexPath.section == 0) {
+        return 100;
+    }
+    if (indexPath.section == 1) {
+        return 100;
+    }
+
+    return 300;
+}
 
 #pragma mark ScrollViewDelegate
 #pragma mark - 滑动代理
@@ -212,6 +286,29 @@
     }
 }
 
+#pragma mark   next Section
+
+#pragma mark    ExploreTableViewCellDelegate
+- (void)collectionViewDidSelectedItemAtIndexPath:(NSIndexPath *)indexPath collectionView:(UICollectionView *)collectionView forCell:(MainCell *)cell {
+//    ACollectionViewCell *collectionCell = (ACollectionViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
+//    NSLog(@"dian ji le %ld",indexPath.item);
+    [UILabel showStats:[NSString stringWithFormat:@"点击了第%ld个",indexPath.item] atView:self.view];
+}
+
+
+- (void)setup {
+//    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([MainCell class]) bundle:nil] forCellReuseIdentifier:@"MainCell"];
+    
+    NSMutableArray *arrM = [NSMutableArray array];
+    for (int i = 0; i < 5; i ++) {
+        NSString *str = [NSString stringWithFormat:@"%@",@(i)];
+        [arrM addObject:str];
+    }
+    
+    self.items = [arrM copy];
+    [self.tableView reloadData];
+
+}
 
 
 

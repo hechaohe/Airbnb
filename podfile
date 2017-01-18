@@ -12,6 +12,7 @@ target 'Airbnb' do
  pod 'MJRefresh'
  pod 'MBProgressHUD'
  pod 'IQKeyboardManager'
+ pod 'pop', '~> 1.0'
  use_frameworks!
   # Pods for Airbnb
 

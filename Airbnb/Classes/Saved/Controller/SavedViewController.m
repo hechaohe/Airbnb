@@ -9,7 +9,8 @@
 #import "SavedViewController.h"
 #import "SavedCell.h"
 #import "DetailSavedController.h"
-@interface SavedViewController ()
+#import "OUNavigationController.h"
+@interface SavedViewController () 
 
 @end
 
@@ -27,6 +28,10 @@
     label.font = [UIFont boldSystemFontOfSize:45];
     label.text = @"心愿单";
     [heade addSubview:label];
+    
+    
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -71,6 +76,7 @@
     nav.modalPresentationStyle = UIModalPresentationPageSheet;
     nav.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:nav animated:YES completion:nil];
+    
     
 }
 

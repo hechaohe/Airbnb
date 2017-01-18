@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1412155B624CE00826792A3DF947F873"
+               BlueprintIdentifier = "E8DF0B2C28E2F9AD0D153704A71814AE"
                BuildableName = "Pods_Airbnb.framework"
                BlueprintName = "Pods-Airbnb"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1412155B624CE00826792A3DF947F873"
+            BlueprintIdentifier = "E8DF0B2C28E2F9AD0D153704A71814AE"
             BuildableName = "Pods_Airbnb.framework"
             BlueprintName = "Pods-Airbnb"
             ReferencedContainer = "container:Pods.xcodeproj">
